@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="SpaceInvaders.ProxySprite_Base" Collapsed="true">
+    <Position X="28.75" Y="5.75" Width="1.75" />
+    <InheritanceLine Type="SpaceInvaders.SpriteBase" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="32.75" Y="5.675" />
+        <Point X="32.75" Y="6.062" />
+        <Point X="30.5" Y="6.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\ProxySprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ProxySprite">
+    <Position X="28.75" Y="7.25" Width="1.75" />
+    <Members>
+      <Method Name="~ProxySprite" Hidden="true" />
+      <Method Name="clear" Hidden="true" />
+      <Method Name="deepClear" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Method Name="ProxySprite" Hidden="true" />
+      <Method Name="set" Hidden="true" />
+      <Method Name="setName" Hidden="true" />
+      <Method Name="setX" Hidden="true" />
+      <Method Name="setY" Hidden="true" />
+      <Method Name="update" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.ProxySprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\ProxySprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="pGameSprite" Type="SpaceInvaders.GameSprite" FixedFromPoint="true">
+      <Path>
+        <Point X="30.5" Y="9.074" />
+        <Point X="35" Y="9.074" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.722" Y="0.127" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEAQQQAAAAAAAAAAAAQGAAAAAAAEAABAAABkAAAUAAA=</HashCode>
+      <FileName>Sprite\ProxySprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pGameSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.GameSprite_Base" Collapsed="true">
+    <Position X="35" Y="5.75" Width="1.5" />
+    <InheritanceLine Type="SpaceInvaders.SpriteBase" FixedToPoint="true">
+      <Path>
+        <Point X="32.75" Y="5.675" />
+        <Point X="32.75" Y="6.062" />
+        <Point X="35" Y="6.062" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\GameSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameSprite">
+    <Position X="35" Y="7.25" Width="1.5" />
+    <Members>
+      <Field Name="pImage" Hidden="true" />
+      <Field Name="poAzulSprite" Hidden="true" />
+      <Field Name="psAzulColor" Hidden="true" />
+      <Field Name="psAzulRect" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameSprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\GameSprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gEAAQJAAAAAAAABAASwAAAAQAAAEAABAAABkAgBUAAA=</HashCode>
+      <FileName>Sprite\GameSprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBase" HideInheritanceLine="true">
+    <Position X="32" Y="4.25" Width="1.5" />
+    <Members>
+      <Method Name="~SpriteBase" Hidden="true" />
+      <Method Name="SpriteBase" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

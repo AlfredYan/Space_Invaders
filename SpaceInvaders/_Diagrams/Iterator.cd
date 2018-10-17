@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Iterator">
+    <Position X="6" Y="1" Width="1.5" />
+    <Members>
+      <Method Name="GetChild" Hidden="true" />
+      <Method Name="GetParent" Hidden="true" />
+      <Method Name="GetSibling" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAAABAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAYAAAA=</HashCode>
+      <FileName>Composite\Iterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ForwardIterator">
+    <Position X="4.75" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="ForwardIterator" Hidden="true" />
+      <Method Name="nextStep" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAIAAAAAAAAAAAAAAAMAAAAAAAAACAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Composite\ForwardIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ReverseIterator">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <Members>
+      <Method Name="ReverseIterator" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAMAAAAAAIAACAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Composite\ReverseIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

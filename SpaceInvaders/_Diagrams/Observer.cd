@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.CollisionSubject">
+    <Position X="3.25" Y="2" Width="1.75" />
+    <Members>
+      <Method Name="~CollisionSubject" Hidden="true" />
+      <Method Name="CollisionSubject" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgAAAIAAAAAAAEAAAAAAAAAAAAAAAACAAAAAQAAAAAA=</HashCode>
+      <FileName>Collision\CollisionSubject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionPair">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <Members>
+      <Method Name="~CollisionPair" Hidden="true" />
+      <Method Name="attach" Hidden="true" />
+      <Method Name="Collide" Hidden="true" />
+      <Method Name="CollisionPair" Hidden="true" />
+      <Method Name="deepClean" Hidden="true" />
+      <Method Name="getName" Hidden="true" />
+      <Method Name="process" Hidden="true" />
+      <Method Name="set" Hidden="true" />
+      <Method Name="setCollision" Hidden="true" />
+      <Method Name="setName" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.CollisionPair.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Collision\CollisionPair.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <AssociationLine Name="poSubject" Type="SpaceInvaders.CollisionSubject">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.214" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAQgAQAAAQAAAAAAQAAAYAACAEAADAAAAEAAAAAAA=</HashCode>
+      <FileName>Collision\CollisionPair.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poSubject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.CollisionObserver">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAQAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Collision\CollisionObserver.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSubject" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.RemoveAlienObserver">
+    <Position X="6" Y="4" Width="1.5" />
+    <Members>
+      <Method Name="checkParent" Hidden="true" />
+      <Method Name="execute" Hidden="true" />
+      <Method Name="RemoveAlienObserver" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAEAAIAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Observer\RemoveAlienObserver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
